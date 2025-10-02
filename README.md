@@ -1,5 +1,5 @@
 # dashy-podman
-Run dashy with Quadlet in Podman
+Run Dashy (https://dashy.to/) with Quadlet in Podman
 
 If `$HOME/.config/containers/systemd/` doesn't exists , create it
 ```
