@@ -1,0 +1,14 @@
+[Container]
+Image=ghcr.io/lissy93/dashy:latest
+ContainerName=dashy
+AutoUpdate=registry
+PublishPort=8080:8080
+Environment=NODE_ENV=production
+# customize you data path here
+Volume=%h/Dashy/app/user-data:/app/user-data:Z
+
+[Service]
+Restart=always
+
+[Install]
+WantedBy=default.target
