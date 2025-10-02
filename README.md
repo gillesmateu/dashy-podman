@@ -6,7 +6,7 @@ If `$HOME/.config/containers/systemd/` doesn't exists , create it
 mkdir -p $HOME/.config/containers/systemd/
 ```
 
-Put `dashy.container` in `$HOME/.config/containers/systemd/`
+Upgrade `dashy.container` with your settings and put it in `$HOME/.config/containers/systemd/`
 
 Inform systemd of the dashy.container configuration
 ```
