@@ -1,5 +1,5 @@
 # dashy-podman
-Run Dashy (https://dashy.to/) with Quadlet in Podman
+## Run Dashy (https://dashy.to/) with Quadlet in Podman
 
 If `$HOME/.config/containers/systemd/` doesn't exists , create it
 ```
@@ -28,3 +28,9 @@ $ systemctl --user status dashy.service
 ```
 
 Browse to your Dashy url, ex: http://127.0.0.1:8080/
+
+## Usefull links:
+- Dashy: https://dashy.to
+- Podman: https://podman.io
+- Podman Quadlet: https://docs.podman.io/en/latest/markdown/podman-systemd.unit.5.html
+- Podman Desktop: https://podman-desktop.io
