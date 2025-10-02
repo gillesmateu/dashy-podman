@@ -3,12 +3,8 @@ Image=ghcr.io/lissy93/dashy:latest
 ContainerName=dashy
 AutoUpdate=registry
 Environment=NODE_ENV=production
-
-# customize your listening port
-PublishPort=8080:8080
-
-# customize your data path
-Volume=%h/Dashy/app/user-data:/app/user-data:Z
+PublishPort=8080:8080 #customize your listening port
+Volume=%h/Dashy/app/user-data:/app/user-data:Z #customize your data path
 
 [Service]
 Restart=always
