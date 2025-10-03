@@ -8,6 +8,9 @@ mkdir -p $HOME/.config/containers/systemd/
 
 Upgrade `dashy.container` with your settings and put it in `$HOME/.config/containers/systemd/`
 
+You can put a sample configuration file in the data directory you informed in `dashy.container` or start without configuration.
+Sample condiguration files can be found here: https://gist.github.com/Lissy93/000f712a5ce98f212817d20bc16bab10
+
 Inform systemd of the `dashy.container` configuration
 ```
 $ systemctl --user daemon-reload
